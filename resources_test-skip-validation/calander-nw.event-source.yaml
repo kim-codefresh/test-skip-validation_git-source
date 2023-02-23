@@ -1,0 +1,11 @@
+apiVersion: argoproj.io/v1alpha1
+kind: EventSource
+metadata:
+  name: calander-nw
+spec:
+  eventBusName: codefresh-eventbus
+  template:
+    serviceAccountName: argo-server
+  calendar:
+    calendar-21996d74-e163-42ed-88aa-fa19370c7eb4:
+      interval: 3m
