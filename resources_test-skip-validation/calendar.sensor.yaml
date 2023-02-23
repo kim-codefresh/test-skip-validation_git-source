@@ -35,5 +35,5 @@ spec:
                       value: ''
                 workflowTemplateRef:
                   name: echo-message
-        name: echo-message
+        name: exit-handler
         conditions: calendar-dep
