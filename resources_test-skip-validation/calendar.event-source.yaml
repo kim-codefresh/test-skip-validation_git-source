@@ -9,5 +9,5 @@ spec:
   eventBusName: codefresh-eventbus
   template:
     container:
-      name: ""
+      name: ''
       resources: {}
