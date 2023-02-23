@@ -5,7 +5,7 @@ metadata:
 spec:
   calendar:
     example-with-interval:
-      interval: 30m
+      interval: 5m
   eventBusName: codefresh-eventbus
   template:
     container:
